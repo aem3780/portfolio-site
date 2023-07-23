@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allison Maus</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="./source/allisonmaus.js" type="module"></script>
+    <script src="./source/carousel.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='./styles/projects.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    <script src="https://kit.fontawesome.com/4f8a520376.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar is-fixed-top has-background-white ">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-success-dark has-text-weight-semibold" href="index.html">
+                Allison Maus</a>
+                <a class="navbar-burger mt-4" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+    
+        <div class="navbar-menu" id=nav-links>
+            <div class="navbar-end">
+                <a class="navbar-item has-text-success-dark" href="index.html#bio">Bio</a>
+                <a class="navbar-item has-text-success-dark" href="index.html#resume">Resume</a>
+                <a class="navbar-item has-text-success-dark"  href=index.html#projects">Projects</a>
+                <a class="navbar-item has-text-success-dark" href="#contact">Contact</a>
+            </div>
+        </div>
+        </nav>
+        </header>
+
+        <div class="columns is-centered m-2 pt-6 mt-6"></div>
+        <div class="column">
+            <h2 class="title is-2 has-text-centered" style="color: #D36582;">
+                In A Pickle: iOS Cooking App 
+            </h2>
+        </div>
+        </div>
+
+        <div class="columns is-centered pb-4 m-2">
+        <div class="column is-half">
+        <section class="section">
+            <video autoplay controls muted> 
+                <source src="assets/iosAppDemo.mp4" type="video/mp4">
+            </video>
+        </section>
+        </div>
+    </div>
+
+
+
+    <div class="columns is-centered m-1 pb-1">
+        <div class="column is-one-quarter">
+            <h3 class="title is-4 " style="color: #D36582;">About the project: </h3>
+            <ul>
+                <li>Software: Xcode, Swift, SwiftUI, Core Data </li>
+                <li>Skills: App development, UX/UI design</li>
+                <li>Duration: 6 weeks</li>
+            </ul>
+    </div>
+     <div class="column is-one-quarter">
+            <h3 class="title is-4 " style="color: #D36582;">At a Glance: </h3>
+            <p class="pb-1">In a Pickle is for people who enjoy cooking or want to start cooking and need help organizing their grocery lists and finding recipes. The app helps people to organize their favorite recipes, meal plan, find new recipes, create shopping lists, and search for recipes.</p>
+     </div>
+
+
+    </div>
+    <div class="columns is-centered m-1 pb-4">
+         <div class="column is-half">
+        <h3 class="title is-4  " style="color: #D36582;">The solution: </h3>
+        <p class="pb-5">In a Pickle is a mobile iOS application that was designed and coded using Xcode, Swift, SwiftUI, and core data. 
+            The app consists of four screens: a list view, recipe search view, a cookbook view, and a meal plan calendar view.
+            The recipe view loads in recipe data from a stored plist and lists the individual recipes for users to click on and follow along with. The recipes 
+            are searchable for better accesibility.
+        These recipes can be favorited and added to the users cookbook for quicker, easier access.</p><p> The list view consists of two different lists, a grocery list and 
+    a pantry list. The grocery list allows the user to make a list of things they need to buy and check them off as they go. The pantry list allows the user to create
+a list of items and ingredients they already have and label the quantity of the item so they can track what they're running low on. The meal plan view allows users 
+to organize their meals for multiple days and label them by type of meal. The list items, favorited recipes, and meal plan items are all stored in core data so that 
+the data stays present when the app is restarted or reopened.</p>
+
+        </div>
+    </div>
+
+            <footer id="contact" class="footer pb-6 has-background-white">
+                <div class="columns is-centered m-2"></div>
+                <div class="column">
+                    <h2 class="has-text-success-dark has-text-centered">
+                        Let's stay in touch!
+                    </h2>
+                </div>
+                <div class="columns is-centered">
+                    <div id="footer" class="column is-two-thirds">
+                    <ul>
+                        <li class="m-4"><i class="fas fa-envelope"></i><a class="has-text-success-dark" href="mailto:allisonemaus@gmail.com"> allisonemaus@gmail.com</a></li>
+                        <li class="m-4"><i class="fas fa-brands fa-linkedin"></i><a class="has-text-success-dark" href="https://www.linkedin.com/in/allison-maus-" target="_blank"> Allison Maus</a></li>
+                        <li class="m-4"><i class="fas fa-phone"></i><a class="has-text-success-dark" href="tel:7163528250"> Cell Phone</a></li>
+                        <li class="m-4"><i class="fas fa-file"></i> A copy of my resume: <a class="has-text-success-dark" href="assets/Allie Resume.pdf" target="_blank"> Resume</a></li>
+                    </ul>
+                    </div>
+            
+                </div>
+            </footer>
+</body>
